@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_epachols_harness_react_ci_1724678883142-pr-trigger-input-set
+  identifier: Build_epachols_harness_react_ci_1724678883142prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_epachols_harness_react_ci_1724678883142
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
