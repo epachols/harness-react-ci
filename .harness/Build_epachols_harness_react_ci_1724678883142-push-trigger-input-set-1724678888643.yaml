@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_epachols_harness_react_ci_1724678883142-push-trigger-input-set
+  identifier: Build_epachols_harness_react_ci_1724678883142pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_epachols_harness_react_ci_1724678883142
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
